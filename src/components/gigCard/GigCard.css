@@ -1,0 +1,80 @@
+.gigCard {
+  width: 260px;
+  /* height: 510px; */
+  border: 1px solid lightgray;
+  margin-bottom: 25px;
+  /* background-color: red; */
+  /* margin: 20px; */
+}
+.gigCard img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+.gigCard hr {
+  border: 0.5px solid lightgray;
+  width: auto;
+}
+.gigCardInfo {
+  height: 120px;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.gigCardInfo p {
+  color: #111;
+}
+.gigCardUser {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.gigCardUser img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+.star {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.star img {
+  width: 14px;
+  height: 14px;
+}
+.star span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffc108;
+}
+.gigCardDetails {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gigCardDetails img {
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  object-fit: contain;
+}
+.gigCardPrice {
+  display: flex;
+  flex-direction: column;
+justify-content:right;
+line-height: 10px;
+text-align: right;
+}
+.gigCardPrice span {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.gigCardPrice h2 {
+  color: #555;
+  font-size: 18px;
+  font-weight: 400;
+}

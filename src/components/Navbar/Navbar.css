@@ -1,0 +1,139 @@
+.navbar {
+  display: flex;
+  background-color: #013914;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: sticky;
+  transition: 0.5s all ease;
+  top: 0;
+  font-size: 20px;
+  width: 1349px;
+  z-index: 1;
+}
+
+.active {
+  font-size: 20px;
+  width: 1348px;
+  /* background-color: red; */
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: sticky;
+  transition: 0.5s all ease;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 0px;
+  width: 1300px;
+  font-weight: 500;
+}
+
+hr {
+  width: 1345px;
+  height: 0;
+  border: 0.5px solid lightgrey;
+  margin-bottom: 0;
+}
+
+.logo {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.text {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.dot {
+  color: lightgreen;
+}
+
+.list {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+  font-weight: 650;
+  font-size: 21px;
+}
+
+.list button {
+  margin: 5px;
+}
+
+button {
+  color: white;
+  border: 1px solid white;
+  /* background-color: rgb(48, 102, 86); */
+  background-color: #013914;
+
+  padding: 7px 14px;
+  border-radius: 5px;
+}
+
+button:hover {
+  box-shadow: 0 0 1px 1px white;
+}
+
+.menu {
+  display: flex;
+  /* padding: 0px 10px 0px 0px; */
+  padding-top: 10px;
+  justify-content: center;
+  width: 1365px;
+  color: gray;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.menu section {
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.user img {
+  border-radius: 50%;
+  background-color: white;
+  /* border: 2px solid white; */
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.options {
+  text-align: left;
+  top: 70px;
+  position: absolute;
+  background-color: white;
+  color: black;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 300;
+  border-radius: 10px;
+  border: 0.5px solid black;
+  margin: 10px;
+  padding: 5px;
+  right: 10px;
+}

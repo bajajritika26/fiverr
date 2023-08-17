@@ -1,0 +1,58 @@
+.orders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ordersContainer {
+  width: 1200px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+
+.myGigsTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.myGigsTitle button {
+  background-color: #1dbf73;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+}
+table tr {
+  height: 50px;
+}
+table tr th {
+  text-align: left;
+  font-size: 18px;
+}
+td {
+  font-size: 15px;
+}
+td .tImg {
+  width: 70px;
+  height: 42px;
+  object-fit: cover;
+  padding: 2px;
+}
+td .delete {
+  
+  
+    height: 30px;
+    object-fit: cover;
+    width: 30px;
+    cursor: pointer;
+
+}
+tr:nth-child(even) {
+  background-color: #1dbf730f;
+}

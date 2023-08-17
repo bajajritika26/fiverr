@@ -1,0 +1,26 @@
+.projectsSlide {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 50px; */
+    /* color: black; */
+    /* background-color: black; */
+
+}
+
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1340px;
+    padding: 50px;
+    margin: 50px;
+    color: black;
+}
+.myCC{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+}

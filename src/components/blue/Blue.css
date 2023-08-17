@@ -1,0 +1,67 @@
+.blue{
+    background-color: #06032c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 50px 0px;
+    /* height: 200px; */
+    /* width: 200px; */
+}
+.blueContainer{
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+gap: 10px;
+padding: 20px 0px;
+
+}
+.blueContainer h1{
+    font-weight: 500;
+    font-size: 35px;
+}
+.blueContainer p{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+.blueLeft{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 10px;
+}
+.blueLeft img{
+    height: 25px;
+    width: 25px;
+
+}
+.blueLeft button{
+    /* width: 250px; */
+    background-color: #1dbf73;
+font-size: 15px;
+border-radius: 5px;
+color: white;
+padding: 10px 20px;
+cursor: pointer;
+border: none;
+margin-top: 20px;
+width: max-content;
+}
+.blueTitle{
+    display: flex;
+    gap: 8px;
+    font-weight: 300;
+    font-size: 14px;
+    /* font-weight: 300; */
+    color: white;
+}
+.blueRight img{
+    height: 350px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

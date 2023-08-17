@@ -1,0 +1,15 @@
+.slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1350px;
+    padding: 50px;
+    margin: 50px;
+    color: black;
+}
