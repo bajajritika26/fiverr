@@ -38,6 +38,7 @@ function Navbar() {
           <span>fiverr Business</span>
           <span>Explore</span>
           <span>English</span>
+          <span>Hindi</span>
           {!currentUser?.isSeller && <span>Become a Seller</span>}
           {currentUser ? (
             <div className="user" onClick={()=>setOpen(!open)}>
