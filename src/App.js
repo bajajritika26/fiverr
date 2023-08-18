@@ -8,6 +8,7 @@ import Gig from "./pages/Gig/Gig";
 import Gigs from "./pages/Gigs/Gigs";
 import MyGigs from "./pages/MyGigs/MyGigs";
 import Orders from "./pages/Orders/Orders";
+import NewPage from "./pages/NewPage/NewPage";
 
 function App() {
   const Layout = () => {
@@ -32,6 +33,8 @@ function App() {
         { path: "/mygigs", element: <MyGigs /> },
 
         { path: "/add", element: <Add /> },
+        {path:"/more",element:<NewPage/>}
+
       ],
     },
   ]);

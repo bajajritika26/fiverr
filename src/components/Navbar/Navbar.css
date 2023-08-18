@@ -10,13 +10,13 @@
   transition: 0.5s all ease;
   top: 0;
   font-size: 20px;
-  width: 1349px;
+  width: 1350px;
   z-index: 1;
 }
 
 .active {
   font-size: 20px;
-  width: 1348px;
+  width: 1349px;
   /* background-color: red; */
   background-color: white;
   color: black;

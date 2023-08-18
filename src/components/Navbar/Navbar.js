@@ -35,10 +35,9 @@ function Navbar() {
           <span className="dot">.</span>
         </div>
         <div className="list">
-          <span>fiverr Business</span>
-          <span>Explore</span>
-          <span>English</span>
-          <span>Hindi</span>
+          <Link className="link" to="/more">fiverr Business</Link>
+          <Link className="link" to="/gig/123">Explore</Link>
+          <Link className="link" to="/more">English</Link>
           {!currentUser?.isSeller && <span>Become a Seller</span>}
           {currentUser ? (
             <div className="user" onClick={()=>setOpen(!open)}>
@@ -81,31 +80,31 @@ function Navbar() {
         <>
           <hr />
           <div className="menu">
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gig/123">
               Graphics & Design
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="gigs">
               Video & Animation
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gig/123">
               Writing & Translation
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/more">
               AI Services
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs">
               Digital Marketing
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gig/123">
               Music & Audio
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs">
               Programming & Tech
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/more">
               Business
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gig/123">
               Lifestyle
             </Link>
           </div>
